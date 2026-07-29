@@ -6,6 +6,7 @@ Loads environment variables used accross the project
 import os 
 from dotenv import load_dotenv
 
+load_dotenv()
 class Config:
     """
     Central Configuration class

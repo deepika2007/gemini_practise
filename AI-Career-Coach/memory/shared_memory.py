@@ -50,7 +50,7 @@ class SharedMemory:
         self._memory.pop(key, None)
 
 
-    def clear(self, key:str)->bool:
+    def clear(self) -> None:
         """
         Clear memory
         """
